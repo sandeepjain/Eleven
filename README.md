@@ -22,7 +22,9 @@ Or grab the [source](https://github.com/sandeepjain/Eleven/dist/Eleven.js) ([min
 
 Basic usage is as follows:
 
-    Eleven.numberToWords(7289.08); // Seven Thousand Two Hundred Eighty Nine Rupees And Eight Paise Only
+    Eleven.moneyToWords(7289.08); // Seven Thousand Two Hundred Eighty Nine Rupees And Eight Paise Only
+
+    Eleven.numberToWords(275); // two hundred seventy five
 
 For advanced usage, see the documentation.
 
